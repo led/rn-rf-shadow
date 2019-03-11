@@ -4,7 +4,7 @@ The fastest way a [ClojureScript](https://clojurescript.org/) coder can get star
 
 This is an example project using: [shadow-cljs](https://github.com/thheller/shadow-cljs), [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/), [Reagent](https://reagent-project.github.io/), and [re-frame](https://github.com/Day8/re-frame).
 
-Here follows instructiomn for getting started either using the command line or [Calva](http://github.com/BetterThanTomorrow/calva), assuming you have stuff like XCode, or whatever is the Android equivalents, installed:
+Here follows instructions for getting started either using the command line or [Calva](http://github.com/BetterThanTomorrow/calva), assuming you have stuff like XCode, or whatever is the Android equivalents, installed:
 
 ## Command line
 ```sh
@@ -31,7 +31,7 @@ Open the project and some `cljs` or `edn` file. Then:
 
 ## Production builds
 
-A production build invloves first asking shadow-cljs to build a relase, then to ask Expo to work in Production Mode.
+A production build invloves first asking shadow-cljs to build a release, then to ask Expo to work in Production Mode.
 
 **NB**: Currently there's a [bug in the metro bundler](https://github.com/facebook/metro/issues/291) that causes release builds to fail in Production Mode. This project includes a way to patch it (nicked from [here](https://github.com/drapanjanas/re-natal/issues/203)). Patch by executing: `patch node_modules/metro/src/JSTransformer/worker.js ./etc/metro-bundler.patch`
 
